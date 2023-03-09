@@ -14,6 +14,8 @@
 
 ### Naive Random Oversampling
 
+![1](https://github.com/jjgomezg17/Credit-Risk-Analysis/blob/main/Images/1.png)
+
 #### The balanced accuracy score and precision and recall scores for Naive Random Oversampling can be summarized as follows:
 
 #### Balanced accuracy score:
@@ -61,7 +63,7 @@
 #### The recall score for low risk loans is also low, at 0.55, which means that the model is correctly identifying only about half of all low risk loans.
 #### The F1 score for high risk loans is also very low at only 0.01, indicating that the model is not performing well in identifying high risk loans.
 
-####Overall, these precision and recall scores suggest that the model trained using ClusterCentroids is not suitable for predicting credit risk and may require further improvement using different resampling techniques or machine learning models.
+#### Overall, these precision and recall scores suggest that the model trained using ClusterCentroids is not suitable for predicting credit risk and may require further improvement using different resampling techniques or machine learning models.
 
 #### Confusion matrix:
 
