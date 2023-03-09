@@ -33,6 +33,8 @@
 
 ### SMOTE Oversampling
 
+![2](https://github.com/jjgomezg17/Credit-Risk-Analysis/blob/main/Images/2.png)
+
 #### The balanced accuracy score and precision and recall scores for SMOTE Oversampling can be summarized as follows:
 
 #### Balanced accuracy score:
@@ -49,6 +51,8 @@
 #### Overall, the precision and recall scores for predicting high risk loans are still low, indicating that this model may still not be suitable for predicting credit risk and may require further improvement. However, the slightly higher balanced accuracy score may suggest that SMOTE Oversampling has improved the model's performance to some extent.
 
 ### ClusterCentroids resampler
+
+![3](https://github.com/jjgomezg17/Credit-Risk-Analysis/blob/main/Images/3.png)
 
 #### Balanced accuracy score:
 
@@ -73,6 +77,8 @@
 
 ### SMOTEENN
 
+![4](https://github.com/jjgomezg17/Credit-Risk-Analysis/blob/main/Images/4.png)
+
 #### Balanced accuracy score is 0.658, indicating better performance than Random Oversampling and ClusterCentroids resampling methods.
 
 ### Precision for high-risk loans is low at 0.01, meaning that only 1% of predicted high-risk loans are actually high-risk.
@@ -91,6 +97,10 @@
 
 ### Balanced Random Forest Classifier
 
+![5](https://github.com/jjgomezg17/Credit-Risk-Analysis/blob/main/Images/5.png)
+
+![5.2](https://github.com/jjgomezg17/Credit-Risk-Analysis/blob/main/Images/5.2.png)
+
 #### The balanced accuracy score for the Balanced Random Forest Classifier is 0.6417, which is better than the score of the Naive Random Oversampling and ClusterCentroids resampling techniques but slightly lower than the SMOTE Oversampling and SMOTEENN algorithms.
 
 #### The precision score for the high-risk class is 0.78, which means that out of all the predicted high-risk loans, 78% of them are true high-risk loans. The recall score for the high-risk class is 0.28, which means that out of all the actual high-risk loans, only 28% of them were correctly identified as high-risk loans.
@@ -100,6 +110,8 @@
 #### The feature importances are listed in descending order, with total_rec_prncp, total_rec_int, and total_pymnt being the top three features.
 
 ### Easy Ensemble AdaBoost Classifier
+
+![6](https://github.com/jjgomezg17/Credit-Risk-Analysis/blob/main/Images/6.png)
 
 #### Balanced accuracy score: 0.9069
 #### Precision and recall scores:
