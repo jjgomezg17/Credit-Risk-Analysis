@@ -81,7 +81,7 @@
 
 #### Balanced accuracy score is 0.658, indicating better performance than Random Oversampling and ClusterCentroids resampling methods.
 
-### Precision for high-risk loans is low at 0.01, meaning that only 1% of predicted high-risk loans are actually high-risk.
+#### Precision for high-risk loans is low at 0.01, meaning that only 1% of predicted high-risk loans are actually high-risk.
 
 #### Recall for high-risk loans is high at 0.69, indicating that 69% of true high-risk loans are correctly classified as high-risk.
 
